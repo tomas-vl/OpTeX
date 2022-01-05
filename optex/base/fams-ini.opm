@@ -160,6 +160,10 @@
 \_faminfo [GFSBodoni] {Based on Bodoni with greek letters} {f-gfsbodoni}
    { -: {\rm\bf\it\bi} \caps: {\rm} }
 
+\_famfrom {TypeTogether}
+\_faminfo [Literata TT] {An open-source serif typeface made by the TypeTogether foundry} {f-literata-tt}
+   { \text,\disp,\subh,\capt,\caps,\onum,\dlig,\frac: {\rm\bf\it\bi} }
+
 \_endcode
 
 Once you have prepared a font family file with the name `f-<famname>.opm` and

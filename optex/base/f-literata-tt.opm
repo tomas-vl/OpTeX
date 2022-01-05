@@ -1,0 +1,41 @@
+\_famdecl [Literata TT] \Literata {A serif typeface made by the TypeTogether foundry.}
+	{\text \disp \subh \capt \caps \onum \dlig \frac} {\rm \bf \it \bi} {}
+	{Literata TT}
+	{\_def\_fontnamegen{Literata TT,\_styleV \_currV:\_capsV\_onumV\_dligV\_fracV\_fontfeatures}}
+
+
+\_wlog{\_detokenize{%
+	Styles:^^J
+		\text ... suitable for regular paragraphs^^J
+		\disp ... suitable for headings, titles etc.^^J
+		\subh ... suitable for subheadings^^J
+		\capt ... suitable for captions and other small text^^J
+	OpenType features:^^J
+		\caps ... small caps & old-style figures^^J
+		\onum ... old-style figures^^J
+		\dlig ... discretionary ligatures^^J
+		\frac ... nice-looking fractions^^J
+}}
+
+\_moddef \resetmod	{\_fsetV style=Text,caps={},onum={},dlig={},frac={} \_fvars Regular Bold Italic {Bold Italic} }
+\_moddef \text		{\_fsetV style=Text }
+\_moddef \disp		{\_fsetV style=Display }
+\_moddef \subh		{\_fsetV style=Subhead }
+\_moddef \capt		{\_fsetV style=Caption }
+\_moddef \caps		{\_fsetV caps=+smcp;+onum; }
+\_moddef \onum		{\_fsetV onum=+onum; }
+\_moddef \dlig		{\_fsetV dlig=+dlig; }
+\_moddef \frac		{\_fsetV frac=+frac; }
+
+\_initfontfamily
+
+\_endcode
+
+Literata TT is a serif typeface created by the TypeTogether foundry as as the brand typeface for Google Play Books.
+In 2020, it was released under the Open Font license.
+
+This is a font-family declaration for the non-variable version of Literata TT as available from TypeTogether’s website <https://www.type-together.com/literata-font>.
+The variable version and both versions from Google fonts <https://fonts.google.com/specimen/Literata> are not supported.
+
+Only two weights (regular and bold) currently work.
+Support for the other weights (extralight, light, medium, semibold, extrabold and black) and some other OpenType features might be added in the future.
